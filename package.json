@@ -1,6 +1,6 @@
 {
   "name": "aniimo-counter-lab",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "description": "Unofficial Aniimo name, Prismana and Spatial counter lookup",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node scripts/check-forms.mjs && node scripts/check-team.mjs"
+    "test": "node scripts/check-forms.mjs && node scripts/check-team.mjs && node scripts/check-traits.mjs && node scripts/check-battle.mjs"
   },
   "license": "MIT"
 }

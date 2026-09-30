@@ -1,13 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..');
+const {version}=JSON.parse(fs.readFileSync(path.join(root,'package.json'),'utf8'));
 const assemble=names=>names.map(name=>fs.readFileSync(path.join(root,'src',name+'.js'),'utf8')).join('\n;\n');
 const bundle=assemble(['dex','matchups','roster','scoring','rankings','app','search','lookup']);
 fs.mkdirSync(path.join(root,'dist'),{recursive:true});
 fs.writeFileSync(path.join(root,'dist','app.bundle.js'),bundle);
-fs.writeFileSync(path.join(root,'dist','team.bundle.js'),assemble(['dex','matchups','roster','scoring','search','team-scoring','team']));
+fs.writeFileSync(path.join(root,'dist','team.bundle.js'),assemble(['dex','matchups','roster','scoring','search','team-scoring','traits','skills','battle','team','sim-ui']).replaceAll('{{APP_VERSION}}',version));
+fs.writeFileSync(path.join(root,'dist','simulation.worker.js'),assemble(['dex','matchups','roster','scoring','team-scoring','traits','skills','battle'])+`\nself.onmessage=e=>{try{const d=e.data;if(d.optimize)self.postMessage({optimization:optimizeBattleLoadouts(d.own,d.enemy,d.settings,d.traits,progress=>self.postMessage({progress}))});else self.postMessage({result:simulateTimedBattle(d.own,d.enemy,d.settings,d.traits,true)});}catch(error){self.postMessage({error:error.message});}};\n`);
 fs.writeFileSync(path.join(root,'dist','style.css'),fs.readFileSync(path.join(root,'src','style.css'),'utf8').replace(/\/\*[\s\S]*?\*\//g,'').replace(/\s+/g,' ').replace(/\s*([{};:,])\s*/g,'$1'));
-const {version}=JSON.parse(fs.readFileSync(path.join(root,'package.json'),'utf8'));
 if(!/^\d+\.\d+\.\d+$/.test(version))throw new Error('Use a numeric major.minor.patch app version.');
 const changelog=fs.readFileSync(path.join(root,'CHANGELOG.md'),'utf8');
 if(!changelog.includes(`## ${version} — `))throw new Error('Current app version needs a changelog entry.');

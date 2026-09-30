@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Irisalis",
+    "form": "prismana-form",
+    "trait": "Bloom Cluster",
+    "effectSummary": "Clone beams deal 15 Might after Whirling Blossom Rain or a completed basic combo. Clone hits build Dance Power; 9 points halve the next skill’s EP cost. A fainted Irisalis can revive, with a 180-second cooldown.",
+    "source": "https://wiki.aniimo.com/item/10001/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Grizbo",
+    "form": "basic-form",
+    "trait": "Raging Rampage",
+    "effectSummary": "Basic hits, EP spending and taking damage build Rage. At 100 Rage, Enraged lasts 20 seconds and grants 30% attack speed and skill damage plus 25% EP recovery.",
+    "source": "https://wiki.aniimo.com/item/069/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Sherro",
+    "form": "basic-form",
+    "trait": "Tidal Heart",
+    "effectSummary": "Water terrain or water absorption grants 25% more Water damage for 20 seconds.",
+    "source": "https://wiki.aniimo.com/item/055/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Scorchhowl",
+    "form": "basic-form",
+    "trait": "Scorching Flames",
+    "effectSummary": "Deals 25% more damage to elementally countered targets.",
+    "source": "https://wiki.aniimo.com/item/003/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Infergon",
+    "form": "basic-form",
+    "trait": "Power of Fire",
+    "effectSummary": "Deals 30% more damage when the target has over 5 Fire Debuff stacks.",
+    "source": "https://wiki.aniimo.com/item/067/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Thornblade",
+    "form": "basic-form",
+    "trait": "Sword Dance",
+    "effectSummary": "Skill use adds a Sword Dance stack for 15 seconds, capped at 4. A basic attack spends one stack for 180% extra damage.",
+    "source": "https://wiki.aniimo.com/item/034/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Fulmintis",
+    "form": "basic-form",
+    "trait": "Electro Stash",
+    "effectSummary": "A critical skill hit restores 4 EP.",
+    "source": "https://wiki.aniimo.com/item/10003/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Fenmane",
+    "form": "basic-form",
+    "trait": "Thunderbond",
+    "effectSummary": "Attack hits build Thunderbond. At 30 stacks, the next skill or ultimate enters Thunderwing Stance for 10 seconds.",
+    "source": "https://wiki.aniimo.com/item/060/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Stellarys",
+    "form": "basic-form",
+    "trait": "Grand Sorcerer",
+    "effectSummary": "For 5 seconds after a skill, basic hits gain 6 Might of additional damage.",
+    "source": "https://wiki.aniimo.com/item/006/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Cornet",
+    "form": "beach-form",
+    "trait": "Air Superiority",
+    "effectSummary": "Flying grants 20% more critical rate.",
+    "source": "https://wiki.aniimo.com/item/009/beach-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Glynsera",
+    "form": "prismana-form",
+    "trait": "Biting Wind",
+    "effectSummary": "Damage against a target with over 5 Ice Debuff stacks gains 15% critical rate.",
+    "source": "https://wiki.aniimo.com/item/044/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Glynsera",
+    "form": "nighttime-form",
+    "trait": "Biting Wind",
+    "effectSummary": "Damage against a target with over 5 Ice Debuff stacks gains 15% critical rate.",
+    "source": "https://wiki.aniimo.com/item/044/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Minespine",
+    "form": "basic-form",
+    "trait": "Earth Affinity",
+    "effectSummary": "While tunneling, Minespine can cast skills and deals 20% extra BREAK.",
+    "source": "https://wiki.aniimo.com/item/074/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Panpanta",
+    "form": "basic-form",
+    "trait": "Appeal",
+    "effectSummary": "Entering battle with an opposite-sex Susuta-family teammate grants 30% BREAK efficiency for 15 seconds, with a 20-second cooldown.",
+    "source": "https://wiki.aniimo.com/item/052/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Glacy",
+    "form": "basic-form",
+    "trait": "Water Spirit",
+    "effectSummary": "Standing in water terrain reduces all skill EP costs by 16%.",
+    "source": "https://wiki.aniimo.com/item/015/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Sherro",
+    "form": "prismana-form",
+    "trait": "Tidal Heart",
+    "effectSummary": "Water terrain or water absorption grants 25% more Water damage for 20 seconds.",
+    "source": "https://wiki.aniimo.com/item/055/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "name": "Thornblade",
+    "form": "prismana-form",
+    "trait": "Sword Dance",
+    "effectSummary": "Skill use adds a Sword Dance stack for 15 seconds, capped at 4. A basic attack spends one stack for 180% extra damage.",
+    "source": "https://wiki.aniimo.com/item/034/prismana-form",
+    "checked": "2026-09-30"
+  }
+]

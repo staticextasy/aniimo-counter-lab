@@ -2,6 +2,23 @@
 
 App versions track changes to this tool. The game patch and data verification date are shown separately in the app.
 
+## 1.3.0 — 2026-09-30
+
+- Added species-passive theorycraft to the enemy team builder, with current official summaries and setup plans for all 17 curated counter forms.
+- Added saved assumptions for water terrain, Fire/Ice Debuff thresholds, combat Fly/Tunnel, stack and clone rotations, and critical skill hits.
+- Added Balanced, Damage, Sustain and BREAK priorities, a distinct-species trait-aware team suggestion and alternative teams.
+- Kept element coverage and reach ahead of heuristic passive/role preferences; avoided invented uptime, damage multipliers and buff transfers.
+- Added rotation and conditional synergy notes, including Ice Debuff vs Frozen, puddle/terrain uncertainty and Appeal’s family/gender requirement.
+- Added a prominent “Suggestions, not guaranteed wins” notice to both tools and a reminder beside trait team results.
+- Added passive source audits and regression checks for trait conditions, coverage priority, unique species, saved setup and recommendation notices.
+
+- Added an experimental timed battle simulator with editable counter composition, two active skills and one ultimate per member, shared EP, cooldowns, cast durations and ultimate charge.
+- Added all 89 published skill options for the 14 curated counter species, variant-unlock controls, calibrated timings, guide-inspired priorities and editable use weights.
+- Added user-observed enemy sequences and custom boss attack inputs; documented mechanics are separated from unverified fixed scripts.
+- Added repeatable seeded trials, composition/loadout comparisons, per-member and per-skill metrics and an example event timeline.
+- Added worker-based loadout search across permitted skill pairs and ultimates, with separate validation trials and an explicit local-search limit.
+- Labeled modeled success rates as experimental estimates, not real win probabilities; listed incomplete mechanics and unverified timing inputs.
+
 ## 1.2.0 — 2026-09-30
 
 - Added a separate enemy team builder with name search and all 207 enemy forms.
