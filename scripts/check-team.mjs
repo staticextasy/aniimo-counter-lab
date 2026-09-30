@@ -1,0 +1,66 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+function runtime(bundle,storage=new Map()){
+  const nodes=new Map();
+  const get=id=>{if(!nodes.has(id))nodes.set(id,{innerHTML:'',textContent:'',value:'',checked:false,disabled:false,open:false,attrs:{},setAttribute(k,v){this.attrs[k]=String(v)},removeAttribute(k){delete this.attrs[k]},addEventListener(k,f){this[k]=f},focus(){},querySelectorAll(){return[]}});return nodes.get(id)};
+  const ctx=vm.createContext({document:{getElementById:get,addEventListener(){}},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)}});
+  vm.runInContext(bundle,ctx);
+  return{get,ctx,run:s=>vm.runInContext(s,ctx),storage};
+}
+const source=fs.readFileSync(new URL('../dist/team.bundle.js',import.meta.url),'utf8');
+const r=runtime(source),run=r.run;
+assert.equal(run('team.length'),0);
+assert(r.get('teamResults').innerHTML.includes('Add enemies'));
+function add(id,form='basic-form',state='Unknown'){
+  r.ctx.testId=id;r.ctx.testForm=form;
+  run('selectTeamEnemy(testId)');
+  r.get('addForm').value=form;r.get('addSpatial').value=state;
+  r.get('addEnemy').onclick();
+}
+for(const id of ['003','006','052','051'])add(id);
+assert.equal(run('team.length'),4);
+assert(r.get('teamResults').innerHTML.includes('Main counters for this team'));
+const ranked=run('rankTeamCounters(team.map(resolveEnemy))');
+assert.equal(ranked.length,17);
+assert(ranked.every(r=>r.matches.length===4));
+assert(ranked.every(r=>r.covered===r.matches.filter(m=>m.status==='Advantage').length));
+assert(ranked.every((v,i)=>i===0||run('compareTeamCounters')(ranked[i-1],v)<=0));
+const coverage=run('suggestCoverageCounters(rankTeamCounters(team.map(resolveEnemy)))');
+assert(coverage.selected.length<=3);
+const covered=new Set();coverage.selected.forEach(r=>r.matches.forEach((m,i)=>{if(m.covered)covered.add(i)}));
+assert.equal(coverage.covered.size,covered.size);
+assert.equal(coverage.covered.size,4);
+
+const blocked=run("teamMatch(roster.find(a=>a.name==='Irisalis'),{elements:[2],spatial:'Tunnel'})");
+assert.equal(blocked.status,'Blocked');assert.equal(blocked.covered,false);
+const airborne=run("teamMatch(roster.find(a=>a.name==='Scorchhowl'),{elements:[2],spatial:'Fly'})");
+assert.equal(airborne.status,'Reach unconfirmed');assert.equal(airborne.covered,false);
+const mixed=run("teamMatch(roster.find(a=>a.name==='Scorchhowl'),{elements:[2,1],spatial:'Unknown'})");
+assert.equal(mixed.status,'Mixed');assert.equal(mixed.covered,false);
+const ice=run("teamMatch(roster.find(a=>a.name==='Glynsera'),{elements:[3,1],spatial:'Unknown'})");
+assert.equal(ice.status,'Advantage');assert.deepEqual(Array.from(ice.factors),[1.6,1.6]);
+
+add('055','thunderstorm-form','Fly');add('055','prismana-form');
+assert.equal(run("team.filter(m=>m.id==='055').length"),2);
+assert.equal(run('new Set(team.map(m=>m.uid)).size'),6);
+const member=run("team.find(m=>m.id==='055')");
+r.get('teamMembers').change({target:{dataset:{field:'form',member:String(member.uid)},value:'prismana-form'}});
+assert.equal(run(`team.find(m=>m.uid===${member.uid}).spatial`),'Unknown');
+assert.equal(run(`resolveEnemy(team.find(m=>m.uid===${member.uid})).elements.join(',')`),'7,1');
+const restored=runtime(source,r.storage);
+assert.equal(restored.run('team.length'),6);
+const invalidStorage=new Map([['aniimo-counter-enemy-team-v1',JSON.stringify([{id:'055',form:'invented-form',spatial:'Unknown'},{id:'<script>',form:'basic-form',spatial:'Fly'}])]]);
+assert.equal(runtime(source,invalidStorage).run('team.length'),0);
+const main=runtime(fs.readFileSync(new URL('../dist/app.bundle.js',import.meta.url),'utf8'));
+assert.equal(main.run('namedEnemy'),null);
+assert.deepEqual(Array.from(main.run('selected')),[0]);
+r.get('teamMembers').click({target:{closest:()=>({dataset:{remove:String(member.uid)}})}});
+assert.equal(run('team.length'),5);
+r.get('clearTeam').onclick();assert.equal(run('team.length'),0);
+assert.equal(runtime(source,r.storage).run('team.length'),0);
+const html=fs.readFileSync(new URL('../dist/team.html',import.meta.url),'utf8');
+const {version}=JSON.parse(fs.readFileSync(new URL('../package.json',import.meta.url),'utf8'));
+assert(html.includes(`team.bundle.js?v=${version}`));
+assert(!html.includes('{{APP_VERSION}}'));
+console.log('PASS: full-team rankings, complementary coverage, blocked/uncertain/mixed matches, forms, duplicates, storage, removal, reset and isolated lookup state.');

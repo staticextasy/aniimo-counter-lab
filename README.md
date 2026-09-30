@@ -6,7 +6,7 @@ A free, unofficial web app for looking up an enemy Aniimo and choosing a counter
 
 ## Features
 
-Current app version: **1.1.1**. See the [changelog](CHANGELOG.md) for release history, also linked from the app footer. App versions are separate from Aniimo game patches.
+Current app version: **1.2.0**. See the [changelog](CHANGELOG.md) for release history, also linked from the app footer. App versions are separate from Aniimo game patches.
 
 - Name search with keyboard navigation for 87 Aniimo species.
 - Select among 207 individually checked forms: standard, regional, weather, nighttime and 26 Prismana forms. The selector shows each form’s exact elements.
@@ -14,6 +14,7 @@ Current app version: **1.1.1**. See the [changelog](CHANGELOG.md) for release hi
 - Ranked recommendations from 17 curated counter forms, with suggested moves and links to their official Wiki entries.
 - Individual move effectiveness factors and an optional combined estimate.
 - Responsive layout for phones and desktops.
+- A separate [enemy team builder](https://staticextasy.github.io/aniimo-counter-lab/team.html) with per-enemy forms and Spatial states, whole-team rankings and complementary coverage suggestions. Teams stay in the current browser.
 
 ## Run locally
 
@@ -25,7 +26,9 @@ To rebuild after editing `src/`, install Node.js 22 or newer and run:
 npm run build
 ```
 
-No `npm install` is necessary. `src/dex.js` holds the searchable species/forms; `src/roster.js` holds curated recommendations; `src/app.js` calculates matchups; `src/lookup.js` handles name and form selection.
+No `npm install` is necessary. `src/dex.js` holds the searchable species/forms; `src/roster.js` holds curated recommendations; `src/scoring.js` provides the shared matchup scorer; `src/lookup.js` handles single-enemy selection; `src/team-scoring.js` and `src/team.js` implement team ranking and selection.
+
+The team builder is `dist/team.html`, linked from the main lookup. Team rankings count clear element advantages separately for each enemy rather than multiplying damage across enemies. A greedy coverage group suggests up to three complementary counter forms; it is not an exhaustive optimizer. Known ranged-vs-Tunnel blocks and unconfirmed non-ranged reach against Fly do not count as advantage coverage. Recommendations remain limited to the 17-form curated roster.
 
 Run `npm test` after building to check form selection and known regional typings. For a release, bump `package.json` using major.minor.patch versioning and add a matching dated entry to `CHANGELOG.md`. The build reads the version and generates both the visible version label and `dist/changelog.html`; it fails if the release entry is missing.
 

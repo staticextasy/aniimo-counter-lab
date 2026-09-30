@@ -2,6 +2,15 @@
 
 App versions track changes to this tool. The game patch and data verification date are shown separately in the app.
 
+## 1.2.0 — 2026-09-30
+
+- Added a separate enemy team builder with name search and all 207 enemy forms.
+- Added per-member form and active Spatial state controls, duplicate species support, removal and browser-local team saving.
+- Ranked the curated counter roster against the complete enemy team, with per-enemy moves, element factors and reach checks.
+- Added a greedy coverage suggestion of up to three complementary counter forms and individual enemy counter results.
+- Shared the matchup scorer between both tools so single-enemy calculations stay consistent.
+- Added tests for team coverage, Spatial reach, form changes, saved teams and independence from the main lookup.
+
 ## 1.1.1 — 2026-09-30
 
 - Versioned JavaScript and stylesheet URLs so a refreshed app fetches the assets for its release.
