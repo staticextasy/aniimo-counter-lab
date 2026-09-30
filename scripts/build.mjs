@@ -21,6 +21,6 @@ for(const line of changelog.split('\n')){
   else if(line.trim())html+=`<p>${escape(line)}</p>`;
 }
 if(inList)html+='</ul>';
-fs.writeFileSync(path.join(root,'dist','changelog.html'),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101723"><title>Changelog · Aniimo Counter Lab</title><link rel="stylesheet" href="style.css"></head><body><header><a class="brand" href="./">◇ ANIIMO <span>COUNTER LAB</span></a><span class="fan">App v${version}</span></header><main><section class="panel releaseNotes">${html}<p><a href="./">← Back to counter lookup</a></p></section></main></body></html>`);
+fs.writeFileSync(path.join(root,'dist','changelog.html'),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101723"><title>Changelog · Aniimo Counter Lab</title><link rel="stylesheet" href="style.css?v=${version}"></head><body><header><a class="brand" href="./">◇ ANIIMO <span>COUNTER LAB</span></a><span class="fan">App v${version}</span></header><main><section class="panel releaseNotes">${html}<p><a href="./">← Back to counter lookup</a></p></section></main></body></html>`);
 for(const name of ['app.js','dex.js','lookup.js','roster.js']){const file=path.join(root,'dist',name);if(fs.existsSync(file))fs.unlinkSync(file)}
 console.log('Built static bundle.');

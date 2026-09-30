@@ -28,7 +28,8 @@ const expected = [
   ['009', 'beach-form', [6, 1]],
   ['009', 'highland-form', [6, 2]],
   ['044', 'nighttime-form', [8, 4]],
-  ['006', 'prismana-form', [8, 4]]
+  ['006', 'prismana-form', [8, 4]],
+  ['055', 'thunderstorm-form', [3, 1]]
 ];
 for (const [id, key, elements] of expected) {
   const form = dex.find(a => a.id === id).forms.find(f => f.key === key);
@@ -53,6 +54,9 @@ for (const a of dex) {
     assert.equal(f.source, `https://wiki.aniimo.com/item/${a.id}/${f.key}`);
   }
 }
+run("selectEnemy('055')");
+assert(get('enemyForm').innerHTML.includes('Thunderstorm Form · Lightning + Water'));
+assert.equal(dex.find(a => a.id === '055').forms.length, 3);
 run("selectEnemy('003'); applyNamedForm('highland-form')");
 get('prism').onclick();
 assert.equal(get('enemyForm').value, 'prismana-form');
@@ -65,6 +69,8 @@ const {version} = JSON.parse(fs.readFileSync(new URL('../package.json', import.m
 const index = fs.readFileSync(new URL('../dist/index.html', import.meta.url), 'utf8');
 const history = fs.readFileSync(new URL('../dist/changelog.html', import.meta.url), 'utf8');
 assert(index.includes(`App v${version}`));
+assert(index.includes(`app.bundle.js?v=${version}`));
+assert(index.includes(`style.css?v=${version}`));
 assert(index.includes('href="changelog.html"'));
 assert(!index.includes('{{APP_VERSION}}'));
 assert(history.includes(`${version} — `));

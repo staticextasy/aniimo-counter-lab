@@ -6,7 +6,7 @@ A free, unofficial web app for looking up an enemy Aniimo and choosing a counter
 
 ## Features
 
-Current app version: **1.1.0**. See the [changelog](CHANGELOG.md) for release history, also linked from the app footer. App versions are separate from Aniimo game patches.
+Current app version: **1.1.1**. See the [changelog](CHANGELOG.md) for release history, also linked from the app footer. App versions are separate from Aniimo game patches.
 
 - Name search with keyboard navigation for 87 Aniimo species.
 - Select among 207 individually checked forms: standard, regional, weather, nighttime and 26 Prismana forms. The selector shows each form’s exact elements.

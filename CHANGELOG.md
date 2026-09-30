@@ -2,6 +2,12 @@
 
 App versions track changes to this tool. The game patch and data verification date are shown separately in the app.
 
+## 1.1.1 — 2026-09-30
+
+- Versioned JavaScript and stylesheet URLs so a refreshed app fetches the assets for its release.
+- Displayed the app version at the top of the page for easier update checks.
+- Added a specific regression check for Sherro’s Thunderstorm form and all three form options.
+
 ## 1.1.0 — 2026-09-30
 
 - Expanded enemy lookup from 112 to 207 officially published forms across 87 species.
