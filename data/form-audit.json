@@ -1,0 +1,2354 @@
+[
+  {
+    "id": "001",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/001/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "002",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/002/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "003",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/003/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "004",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0,
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/004/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "005",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/005/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "006",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/006/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "007",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/007/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "008",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/008/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "009",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/009/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "010",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/010/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "011",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/011/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "012",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/012/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "013",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/013/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "014",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/014/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "015",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/015/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "016",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/016/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "017",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/017/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "018",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/018/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "019",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/019/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "020",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/020/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "021",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/021/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "022",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/022/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "024",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5,
+      2
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/024/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "025",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      4
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/025/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "026",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/026/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "027",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/027/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "028",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/028/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "029",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/029/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "031",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/031/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "032",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/032/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "033",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/033/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "034",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/034/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "035",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/035/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "036",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/036/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "037",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/037/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "038",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/038/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "039",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/039/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "040",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/040/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "041",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/041/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "042",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/042/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "043",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/043/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "044",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/044/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "045",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/045/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "046",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/046/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "047",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/047/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "048",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/048/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "049",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/049/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "050",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/050/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "051",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/051/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "052",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/052/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "053",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/053/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "054",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/054/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "055",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/055/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "056",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/056/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "057",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/057/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "058",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/058/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "059",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/059/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "060",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/060/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "061",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/061/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "062",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/062/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "063",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/063/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "064",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/064/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "065",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/065/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "066",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/066/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "067",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/067/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "068",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/068/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "069",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/069/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "070",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/070/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "071",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/071/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "072",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/072/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "073",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/073/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "074",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/074/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "075",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/075/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "076",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/076/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "077",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/077/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "078",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/078/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "079",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/079/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "080",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/080/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "081",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/081/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "082",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/082/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "10002",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/10002/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "10003",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/10003/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "11001",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/11001/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "99996",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      7
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/99996/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "99998",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      7
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/99998/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "10001",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/10001/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "023",
+    "key": "basic-form",
+    "label": "Standard",
+    "elements": [
+      5,
+      2
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/023/basic-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "001",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      0,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/001/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "001",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/001/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "002",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      0,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/002/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "002",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/002/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "003",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      0,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/003/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "003",
+    "key": "thunderstorm-form",
+    "label": "Thunderstorm Form",
+    "elements": [
+      0,
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/003/thunderstorm-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "003",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/003/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "003",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/003/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "004",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      0,
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/004/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "006",
+    "key": "rainstorm-form",
+    "label": "Rainstorm Form",
+    "elements": [
+      8,
+      1
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/006/rainstorm-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "006",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      8,
+      4
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/006/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "007",
+    "key": "beach-form",
+    "label": "Beach Form",
+    "elements": [
+      6,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/007/beach-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "007",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      6,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/007/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "008",
+    "key": "beach-form",
+    "label": "Beach Form",
+    "elements": [
+      6,
+      1
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/008/beach-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "008",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      6,
+      2
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/008/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "009",
+    "key": "beach-form",
+    "label": "Beach Form",
+    "elements": [
+      6,
+      1
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/009/beach-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "009",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      6,
+      3
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/009/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "009",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      6,
+      2
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/009/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "010",
+    "key": "beach-form",
+    "label": "Beach Form",
+    "elements": [
+      6,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/010/beach-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "010",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      6,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/010/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "011",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/011/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "011",
+    "key": "forest-form",
+    "label": "Forest Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/011/forest-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "011",
+    "key": "grassland-form",
+    "label": "Grassland Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/011/grassland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "011",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/011/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "011",
+    "key": "plateau-form",
+    "label": "Plateau Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/011/plateau-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "011",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/011/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "012",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/012/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "012",
+    "key": "forest-form",
+    "label": "Forest Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/012/forest-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "012",
+    "key": "grassland-form",
+    "label": "Grassland Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/012/grassland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "012",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/012/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "012",
+    "key": "plateau-form",
+    "label": "Plateau Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/012/plateau-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "012",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/012/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "013",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/013/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "013",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      1,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/013/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "014",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/014/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "014",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      1,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/014/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "015",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      1,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/015/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "015",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      1,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/015/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "015",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      7,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/015/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "017",
+    "key": "rainstorm-form",
+    "label": "Rainstorm Form",
+    "elements": [
+      6,
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/017/rainstorm-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "017",
+    "key": "cloudmist-form",
+    "label": "Cloudmist Form",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/017/cloudmist-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "017",
+    "key": "plateau-form",
+    "label": "Plateau Form",
+    "elements": [
+      6,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/017/plateau-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "018",
+    "key": "rainstorm-form",
+    "label": "Rainstorm Form",
+    "elements": [
+      6,
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/018/rainstorm-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "018",
+    "key": "cloudmist-form",
+    "label": "Cloudmist Form",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/018/cloudmist-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "018",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      8,
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/018/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "018",
+    "key": "plateau-form",
+    "label": "Plateau Form",
+    "elements": [
+      6,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/018/plateau-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "020",
+    "key": "mountain-form",
+    "label": "Mountain Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/020/mountain-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "021",
+    "key": "mountain-form",
+    "label": "Mountain Form",
+    "elements": [
+      8,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/021/mountain-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "021",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      8,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/021/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "022",
+    "key": "mountain-form",
+    "label": "Mountain Form",
+    "elements": [
+      5,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/022/mountain-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "024",
+    "key": "mudflat-form",
+    "label": "Mudflat Form",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/024/mudflat-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "024",
+    "key": "beach-form",
+    "label": "Beach Form",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/024/beach-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "024",
+    "key": "bay-form",
+    "label": "Bay Form",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/024/bay-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "026",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/026/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "026",
+    "key": "forest-form",
+    "label": "Forest Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/026/forest-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "026",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/026/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "027",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/027/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "027",
+    "key": "forest-form",
+    "label": "Forest Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/027/forest-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "027",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/027/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "028",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      6,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/028/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "028",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      8,
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/028/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "028",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      6,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/028/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "029",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      6,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/029/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "029",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      8,
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/029/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "029",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      6,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/029/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "033",
+    "key": "towerwood-form",
+    "label": "Towerwood Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/033/towerwood-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "034",
+    "key": "thunderstorm-form",
+    "label": "Thunderstorm Form",
+    "elements": [
+      2,
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/034/thunderstorm-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "034",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      2,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/034/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "034",
+    "key": "towerwood-form",
+    "label": "Towerwood Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/034/towerwood-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "035",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      7,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/035/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "036",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      2,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/036/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "036",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/036/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "036",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/036/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "037",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      2,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/037/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "037",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/037/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "037",
+    "key": "sea-of-flowers-form",
+    "label": "Sea of Flowers Form",
+    "elements": [
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/037/sea-of-flowers-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "040",
+    "key": "forest-form",
+    "label": "Forest Form",
+    "elements": [
+      8,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/040/forest-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "040",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      0,
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/040/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "041",
+    "key": "forest-form",
+    "label": "Forest Form",
+    "elements": [
+      8,
+      2
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/041/forest-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "041",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      0,
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/041/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "041",
+    "key": "highland-form",
+    "label": "Highland Form",
+    "elements": [
+      0,
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/041/highland-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "042",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      8,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/042/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "043",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      8,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/043/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "044",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      7,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/044/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "044",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      8,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/044/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "045",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/045/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "046",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      8,
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/046/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "046",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/046/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "049",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/049/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "050",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/050/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "051",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      8,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/051/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "052",
+    "key": "nighttime-form",
+    "label": "Nighttime Form",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/052/nighttime-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "052",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/052/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "055",
+    "key": "thunderstorm-form",
+    "label": "Thunderstorm Form",
+    "elements": [
+      3,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/055/thunderstorm-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "055",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      7,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/055/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "056",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      5,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/056/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "057",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      5,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/057/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "057",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      8,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/057/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "058",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      5,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/058/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "060",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      7,
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/060/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "061",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      8,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/061/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "061",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/061/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "062",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      8,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/062/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "062",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/062/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "062",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/062/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "063",
+    "key": "snowfield-form",
+    "label": "Snowfield Form",
+    "elements": [
+      8,
+      4
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/063/snowfield-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "063",
+    "key": "mountain-woods-form",
+    "label": "Mountain Woods Form",
+    "elements": [
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/063/mountain-woods-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "064",
+    "key": "mountain-form",
+    "label": "Mountain Form",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/064/mountain-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "065",
+    "key": "mountain-form",
+    "label": "Mountain Form",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/065/mountain-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "066",
+    "key": "mountain-form",
+    "label": "Mountain Form",
+    "elements": [
+      6
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/066/mountain-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "067",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      0,
+      6
+    ],
+    "spatial": "Fly",
+    "source": "https://wiki.aniimo.com/item/067/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "069",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      8,
+      5
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/069/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "072",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      0,
+      8
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/072/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "079",
+    "key": "rainstorm-form",
+    "label": "Rainstorm Form",
+    "elements": [
+      3,
+      1
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/079/rainstorm-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "079",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      7,
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/079/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "10003",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      7,
+      3
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/10003/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "11001",
+    "key": "prismana-form",
+    "label": "Prismatic / Prismana",
+    "elements": [
+      0
+    ],
+    "spatial": "Unknown",
+    "source": "https://wiki.aniimo.com/item/11001/prismana-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "023",
+    "key": "mudflat-form",
+    "label": "Mudflat Form",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/023/mudflat-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "023",
+    "key": "beach-form",
+    "label": "Beach Form",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/023/beach-form",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "023",
+    "key": "bay-form",
+    "label": "Bay Form",
+    "elements": [
+      5
+    ],
+    "spatial": "Tunnel",
+    "source": "https://wiki.aniimo.com/item/023/bay-form",
+    "checked": "2026-09-30"
+  }
+]

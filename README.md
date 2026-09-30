@@ -6,8 +6,10 @@ A free, unofficial web app for looking up an enemy Aniimo and choosing a counter
 
 ## Features
 
+Current app version: **1.1.0**. See the [changelog](CHANGELOG.md) for release history, also linked from the app footer. App versions are separate from Aniimo game patches.
+
 - Name search with keyboard navigation for 87 Aniimo species.
-- Standard and published Prismana form selection: 112 searchable forms, including 26 Prismana forms.
+- Select among 207 individually checked forms: standard, regional, weather, nighttime and 26 Prismana forms. The selector shows each form’s exact elements.
 - Multi-element matchups and active Spatial state selection.
 - Ranked recommendations from 17 curated counter forms, with suggested moves and links to their official Wiki entries.
 - Individual move effectiveness factors and an optional combined estimate.
@@ -25,6 +27,8 @@ npm run build
 
 No `npm install` is necessary. `src/dex.js` holds the searchable species/forms; `src/roster.js` holds curated recommendations; `src/app.js` calculates matchups; `src/lookup.js` handles name and form selection.
 
+Run `npm test` after building to check form selection and known regional typings. For a release, bump `package.json` using major.minor.patch versioning and add a matching dated entry to `CHANGELOG.md`. The build reads the version and generates both the visible version label and `dist/changelog.html`; it fails if the release entry is missing.
+
 ## Publish on GitHub Pages
 
 1. Create a **public** repository and upload this project's contents to its `main` branch, including `.github/workflows/pages.yml`.
@@ -40,7 +44,9 @@ Reference snapshot: **September 30, 2026**. Latest official update found during 
 
 The element chart is a community reference, not an officially verified combat table. The optional combined multiplier is an estimate. Spatial interactions depend on the enemy's current state and the actual move used. Rankings cover a curated 17-form roster; they are not a complete game-wide tier list. Levels, equipment and execution affect outcomes. Full sources and calculation notes are included inside the app.
 
-When updating data, verify each standard/Prismana form and relevant skill separately, retain source links, and update the displayed verification date only after checking it. Keep uncertain community mechanics labeled as estimates.
+The form audit in `data/form-audit.json` records each of the 207 form typings, its official source URL and verification date. Sparkling, boss sizes and unpublished variants are not assigned invented typings.
+
+When updating data, verify each standard, regional, weather, nighttime and Prismana form and relevant skill separately, retain source links, and update the displayed verification date only after checking it. Keep uncertain community mechanics labeled as estimates.
 
 ## License and credits
 
