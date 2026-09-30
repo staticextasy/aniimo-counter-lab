@@ -888,6 +888,7 @@ const battleSkillCatalog=[
         "key": "lightning-surge",
         "effect": {
           "critBuff": 0.35,
+          "critScope": "skill",
           "duration": 20
         },
         "cast": 1,
@@ -911,6 +912,7 @@ const battleSkillCatalog=[
         "key": "enhanced-light-blade",
         "effect": {
           "critBuff": 0.35,
+          "critScope": "skill",
           "duration": 20
         },
         "cast": 1,
@@ -1875,6 +1877,7 @@ const battleSkillCatalog=[
         "key": "glimmer-shot",
         "effect": {
           "teamBuff": 0.15,
+          "onHit": true,
           "duration": 20
         },
         "cast": 1,
@@ -1971,3 +1974,4 @@ const battleSkillCatalog=[
     "source": "https://aniimoguide.com/aniidex/glacy"
   }
 ];
+

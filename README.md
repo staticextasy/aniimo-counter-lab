@@ -6,7 +6,7 @@ A free, unofficial web app for looking up an enemy Aniimo and choosing a counter
 
 ## Features
 
-Current app version: **1.3.0**. See the [changelog](CHANGELOG.md) for release history, also linked from the app footer. App versions are separate from Aniimo game patches.
+Current app version: **1.3.1**. See the [changelog](CHANGELOG.md) for release history, also linked from the app footer. App versions are separate from Aniimo game patches.
 
 - Name search with keyboard navigation for 87 Aniimo species.
 - Select among 207 individually checked forms: standard, regional, weather, nighttime and 26 Prismana forms. The selector shows each form’s exact elements.
@@ -23,7 +23,7 @@ Current app version: **1.3.0**. See the [changelog](CHANGELOG.md) for release hi
 
 ## Run locally
 
-Open `dist/index.html` in a browser. All lookup assets are included. External source links need an internet connection.
+The lookup can open from `dist/index.html`. To use the simulator, serve `dist/` over HTTP because browser workers need a web origin. For example, run `python3 -m http.server 8080 --directory dist` and open `http://localhost:8080`. All lookup assets are included. External source links need an internet connection.
 
 To rebuild after editing `src/`, install Node.js 22 or newer and run:
 
@@ -37,7 +37,7 @@ The team builder is `dist/team.html`, linked from the main lookup. Team rankings
 
 Species-passive theorycraft lives in `src/traits.js`, with per-form sources in `data/trait-audit.json`. The trait planner checks all one-, two- and three-member combinations with distinct species from the curated roster. It prioritizes advantage coverage and confirmed reach, then ordinal planned-trigger/role preferences; these weights are documented in the app and are not damage estimates or win probabilities. Conditional setup controls default off and stay separate from enemy states and the baseline rankings. Rotation and synergy plans must be validated with equipped skills in real combat.
 
-Run `npm test` after building to check form selection and known regional typings. For a release, bump `package.json` using major.minor.patch versioning and add a matching dated entry to `CHANGELOG.md`. The build reads the version and generates both the visible version label and `dist/changelog.html`; it fails if the release entry is missing.
+Run `npm test` after building to check all 207 forms, 17,595 form/state matchups, imported skills and ultimates, model timing/energy gates, trait conditions, saved settings, worker/UI flows and release assets. UI tests use a simulated DOM; visual layout and native browser behavior still require browser testing. For a release, bump `package.json` using major.minor.patch versioning and add a matching dated entry to `CHANGELOG.md`. The build reads the version and generates both the visible version label and `dist/changelog.html`; it fails if the release entry is missing.
 
 ## Publish on GitHub Pages
 
@@ -68,6 +68,7 @@ The team page includes a simulator and skill-loadout comparison. Its success per
 
 Current official summaries and EP/power facts are linked, while element/cooldown records also use community sources, some predating v1.1. Unknown cooldowns remain unknown until supplied. Cast times, hit counts, stats/damage conversion, BREAK scaling, ultimate gains, AI weights and reaction success are editable assumptions. The model omits several collision, field, interruption, equipment and scripted-boss mechanics. See `data/skill-audit.json`, `src/skills.js` and the simulator’s source notes.
 
-`src/battle.js` runs seeded trials at 0.1-second steps with cooldowns, two active skills, one ultimate, one active actor per side, party EP and optional swaps. `src/sim-ui.js` runs work in `dist/simulation.worker.js` and exposes metrics and inputs. The optimizer checks every permitted per-member two-skill pair and ultimate in two coordinate sweeps, then validates on a different seed and retains the baseline if validation worsens. This is a local skill-selection search for a fixed composition, not a proof of global optimality.
+`src/battle.js` runs seeded trials at 0.1-second steps with cooldowns, two active skills, one ultimate, one active actor per side, party EP and optional swaps. `src/sim-ui.js` runs work in `dist/simulation.worker.js` and exposes metrics and inputs. The optimizer checks every permitted per-member two-skill pair and ultimate in two coordinate sweeps (both slot assignments for scripted rotations), caches repeated screening loadouts, then validates on a different seed and retains the baseline if validation worsens. This is a local skill-selection search for a fixed composition, not a proof of global optimality.
 
 Published guides inform setup/burst priorities but do not supply measured attack probabilities. Their numerical weights are author assumptions. Documented Alpha Stellarys Energy Waves and Powerful Charm warnings do not establish exact repeating timings; no verified fixed boss schedule is invented. A user-observed B/1/2/U sequence is paced by the entered cast times, cooldowns and energy settings.
+

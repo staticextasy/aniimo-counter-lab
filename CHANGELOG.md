@@ -2,6 +2,17 @@
 
 App versions track changes to this tool. The game patch and data verification date are shown separately in the app.
 
+## 1.3.1 — 2026-09-30
+
+- Reduced repeated battle-loop allocations and cached element factors, passive lookups and trait-fit scores.
+- Reused deterministic screening results for repeated optimizer loadouts and avoided duplicate baseline validation runs.
+- Tested both skill-slot assignments for scripted rotations, without changing the scripted token order.
+- Fixed skill-only critical buffs affecting basics, next-skill EP discounts affecting other action kinds, zero-weight action selection, zero-power support skills counting as attack hits and EP refund overcounting at capacity and on-hit team buffs activating on blocked attacks.
+- Used exact tenth-second ticks to prevent floating-point timing drift and retained simultaneous completed attacks.
+- Kept disabled and locked variant skills out of selected loadouts; isolated cancelled workers so stale responses cannot replace new results.
+- Enforced the existing 64-enemy limit when adding enemies and added visible keyboard focus for select controls.
+- Expanded automated coverage to every imported active skill and ultimate, simulator worker/UI flows, saved settings, escaped input, release assets and 17,595 form/state matchups.
+
 ## 1.3.0 — 2026-09-30
 
 - Added species-passive theorycraft to the enemy team builder, with current official summaries and setup plans for all 17 curated counter forms.
@@ -51,3 +62,4 @@ App versions track changes to this tool. The game patch and data verification da
 - Included individual element effectiveness, an optional community combined estimate and source notes.
 - Added responsive layouts, keyboard search, compact assets and cached recommendations.
 - Added a README, MIT code license, visible AI credit and GitHub Pages publishing workflow.
+

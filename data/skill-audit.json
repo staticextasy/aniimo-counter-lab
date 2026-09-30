@@ -892,6 +892,7 @@
           "key": "lightning-surge",
           "effect": {
             "critBuff": 0.35,
+            "critScope": "skill",
             "duration": 20
           },
           "cast": 1,
@@ -915,6 +916,7 @@
           "key": "enhanced-light-blade",
           "effect": {
             "critBuff": 0.35,
+            "critScope": "skill",
             "duration": 20
           },
           "cast": 1,
@@ -1879,6 +1881,7 @@
           "key": "glimmer-shot",
           "effect": {
             "teamBuff": 0.15,
+          "onHit": true,
             "duration": 20
           },
           "cast": 1,
@@ -1976,3 +1979,4 @@
     }
   ]
 }
+

@@ -154,7 +154,8 @@ function normalizeTraitOptions(value){
   for(const key of Object.keys(traitDefaults))if(key!=='goal')clean[key]=value[key]===true;
   return clean;
 }
-function traitFor(a){return traitProfiles.find(p=>p.name===a.name)||null}
+const traitProfilesByName=new Map(traitProfiles.map(p=>[p.name,p]));
+function traitFor(a){return traitProfilesByName.get(a.name)||null}
 function traitFit(r,options=traitDefaults){
   const p=traitFor(r.a),o=normalizeTraitOptions(options);
   if(!p)return{profile:null,ready:false,status:'Not checked',eligible:0,fit:0};
@@ -174,13 +175,13 @@ function traitSynergyNotes(group){
   if(names.has('Glynsera')&&names.has('Glacy'))notes.push('Ice caution: Glacy’s Ice Orb freezes; its listed description does not confirm Ice Debuff stacks. Set up Glynsera’s own stacks rather than treating Frozen as Biting Wind’s trigger.');
   return notes;
 }
-function scoreTraitGroup(group,options){
-  const o=normalizeTraitOptions(options),covered=new Set(),reachable=new Set();
+function scoreTraitGroup(group,options,fitByCandidate=null){
+  const o=fitByCandidate?options:normalizeTraitOptions(options),covered=new Set(),reachable=new Set();
   let blocked=0,uncertain=0,resisted=0,fit=0;
   for(const r of group){
     r.matches.forEach((m,i)=>{if(m.covered)covered.add(i);if(!['Blocked','Reach unconfirmed'].includes(m.status))reachable.add(i)});
     blocked+=r.blocked;uncertain+=r.uncertain;resisted+=r.resisted;
-    fit+=traitFit(r,o).fit;
+    fit+=fitByCandidate?.get(r)??traitFit(r,o).fit;
   }
   const roles=new Set(group.map(r=>r.a.role));
   // Small, explicit preference weights, separate from matchup factors.
@@ -192,12 +193,14 @@ function scoreTraitGroup(group,options){
 }
 function compareTraitGroups(a,b){return b.covered.size-a.covered.size||b.reachable.size-a.reachable.size||b.fit-a.fit||a.blocked-b.blocked||a.uncertain-b.uncertain||a.resisted-b.resisted||a.selected.length-b.selected.length||a.key.localeCompare(b.key)}
 function suggestTraitTeams(ranked,options=traitDefaults){
+  const o=normalizeTraitOptions(options),fitByCandidate=new Map(ranked.map(r=>[r,traitFit(r,o).fit]));
   const candidates=ranked.filter(r=>r.matches.some(m=>!['Blocked','Reach unconfirmed'].includes(m.status))),groups=[];
   function visit(start,group){
-    if(group.length)groups.push(scoreTraitGroup(group,options));
+    if(group.length)groups.push(scoreTraitGroup(group,o,fitByCandidate));
     if(group.length===3)return;
     for(let i=start;i<candidates.length;i++)if(!group.some(r=>r.a.name===candidates[i].a.name))visit(i+1,[...group,candidates[i]]);
   }
   visit(0,[]);
   return groups.sort(compareTraitGroups).slice(0,3);
 }
+

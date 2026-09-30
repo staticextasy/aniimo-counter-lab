@@ -69,6 +69,8 @@ assert.equal(main.run('namedEnemy'),null);
 assert.deepEqual(Array.from(main.run('selected')),[0]);
 r.get('teamMembers').click({target:{closest:()=>({dataset:{remove:String(member.uid)}})}});
 assert.equal(run('team.length'),5);
+run("team=Array.from({length:64},(_,i)=>({uid:i+100,id:'052',form:'basic-form',spatial:'Unknown'}))");
+add('052');assert.equal(run('team.length'),64);assert(r.get('teamNotice').textContent.includes('limit reached'));
 r.get('clearTeam').onclick();assert.equal(run('team.length'),0);
 assert.equal(runtime(source,r.storage).run('team.length'),0);
 const html=fs.readFileSync(new URL('../dist/team.html',import.meta.url),'utf8');
@@ -76,3 +78,4 @@ const {version}=JSON.parse(fs.readFileSync(new URL('../package.json',import.meta
 assert(html.includes(`team.bundle.js?v=${version}`));
 assert(!html.includes('{{APP_VERSION}}'));
 console.log('PASS: full-team rankings, complementary coverage, blocked/uncertain/mixed matches, forms, duplicates, storage, removal, reset and isolated lookup state.');
+
